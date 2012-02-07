@@ -1,0 +1,12 @@
+publishers:
+  publisher_1:
+    class: \Stats\Publisher\RabbitMQ
+    config:
+      host: localhost
+      port: 5672
+      user: guest
+      pass: guest
+      vhost: /
+      exchange:
+        stats: myproject_stats
+        events: myproject_events
