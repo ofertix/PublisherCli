@@ -11,7 +11,7 @@ This file contains configuration and commands to change it.
 Requirements
 ============
 
-- PHP 5.3.2 and up.
+- PHP 5.3.2 and up witch pcntl extension installed.
 - RabbitMQ or ZMQ.
 
 
