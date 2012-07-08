@@ -1,3 +1,5 @@
 .idea
 .DS_Store
 publisher_cli.phar
+composer.lock
+vendor/*

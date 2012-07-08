@@ -1,7 +1,7 @@
 What is "PublisherCli"?
 =======================
 
-PublisherPhp is the component that allows publish events or stats using a console command.
+PublisherCli is the component that allows publish events or stats using a console command.
 
 You only need to get one file: `publisher_cli.phar`.
 
@@ -31,6 +31,10 @@ Installation
 ============
 
 The best way to install is to clone the repository and then configure as you need. See "Configuration" section.
+
+After cloning you must install dependencies using "composer":
+
+	php composer.phar update
 
 
 Usage

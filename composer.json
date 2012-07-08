@@ -1,0 +1,30 @@
+{
+    "name": "ofertix/publisher-cli",
+    "description": "PublisherCli is the component that allows publish events or stats using a console command.",
+    "keywords": ["publishercli","log","logging","monitoring","monitor"],
+    "homepage": "https://github.com/ofertix/PublisherCli",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joan Valduvieco",
+            "email": "joan.valduvieco@ofertix.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Jordi Llonch",
+            "email": "jordi.llonch@ofertix.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Stats": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "videlalvaro/php-amqplib": "dev-master",
+        "symfony/class-loader": "2.0.x",
+        "symfony/yaml": "2.0.x"
+    }
+}
